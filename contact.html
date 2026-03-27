@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tailwind css cdn link-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Greenden</title>
+</head>
+
+<body class="m-0 flex flex-col min-h-screen">
+    <nav class="bg-green-100 shadow-xl p-3 flex items-center justify-between sticky top-0 z-50 ">
+        <h1 class="text-2xl ">Greenden</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+        </svg>
+
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Products</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+            </li>
+
+        </ul>
+    </nav>
+    <main class="flex-grow flex flex-col justify-center items-center px-4 py-10">
+
+        <!-- Heading -->
+        <div class="flex flex-col text-center gap-4 max-w-2xl">
+            <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold">
+                CONTACT US
+            </h1>
+
+            <p class="text-sm sm:text-base text-gray-600">
+                Got a technical issue? Want to send feedback about a beta feature?
+                Need details about our Business. Let us know.
+            </p>
+        </div>
+
+        <!-- Form -->
+        <div class="w-full flex justify-center mt-8">
+            <div class="w-full max-w-md">
+
+                <div class="flex flex-col gap-2">
+                    <label class="text-sm font-medium">Name</label>
+
+                    <input type="text" placeholder="Enter your name"
+                        class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-green-400">
+                    </input>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="w-full flex justify-center mt-8">
+            <div class="w-full max-w-md">
+
+                <div class="flex flex-col gap-2">
+                    <label class="text-sm font-medium"> Email </label>
+
+                    <input type="text" placeholder="Enter your Email"
+                        class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-green-400">
+                    </input>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="w-full flex justify-center mt-8">
+            <div class="w-full max-w-md">
+
+                <div class="flex flex-col gap-2">
+                    <label class="text-sm font-medium">Your message</label>
+
+                    <textarea 
+                    placeholder="Enter your message"
+                    class="w-full h-24 border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-green-400">
+                    </textarea>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+
+    <footer class="bg-green-100 py-6 mt-5">
+        <div class="max-w-7xl mx-auto px-4 text-center flex flex-col items-center gap-2 bottom-0">
+            <h1 class="text-2xl font-bold">Greenden</h1>
+            <p class="text-gray-700">Elevating Spaces with Sustainable Green Solutions.</p>
+            <p class="text-sm text-gray-600">© 2026 All rights reserved</p>
+        </div>
+    </footer>
+
+</body>
